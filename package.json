@@ -1,0 +1,28 @@
+{
+  "name": "generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "topnav": "quicktype src/configs/topnav.json -o src/lib/gen-models/topnav.ts",
+    "prepare": "yarn run topnav",
+    "build": "yarn run prepare && rimraf ./dist && swc src -d dist",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
+    "lint": "eslint --ext .ts src",
+    "lint:fix": "eslint --ext .ts src --fix"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@swc/cli": "^0.1.57",
+    "@swc/core": "^1.2.241",
+    "@types/jest": "^28.1.7",
+    "@types/node": "^18.7.8",
+    "eslint": "^8.22.0",
+    "jest": "^28.1.3",
+    "quicktype": "^15.0.261",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^28.0.8",
+    "typescript": "^4.7.4"
+  }
+}

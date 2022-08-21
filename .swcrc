@@ -1,0 +1,26 @@
+
+{
+  // Enable minification
+  "minify": false,
+  "exclude": [".test.ts"],
+  "jsc": {
+    "minify": {
+        "compress": {
+          "unused": true
+        },
+        "mangle": true
+    },
+    "parser": {
+        "syntax": "typescript",
+        "tsx": false,
+        "decorators": true,
+        "dynamicImport": true,
+        "declarationMap": true
+    },
+    "target": "es2020",
+    "baseUrl": "."
+  },
+  "module": {
+    "type": "commonjs"
+  }
+}

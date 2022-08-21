@@ -1,0 +1,253 @@
+[{
+  "name": "Top Nav",
+  "description": "The generic top navigation for extended",
+  "pattern": "./ac-topnav.pattern",
+  "template": "./pattern.hbs",
+  "psd": "smb://marcom-webshare.apple.com/icelements/Elements/globalnav",
+  "source": "https://github.pie.apple.com/marcom-frontend/ac-topnav",
+  "sass": "./pattern.scss",
+  "js": "./pattern.js",
+  "assets": "ac-topnav",
+  "form": [
+    [
+      {
+        "name": "numLinks",
+        "label": "Links",
+        "type": "select",
+        "options": [
+          {
+            "label": "0 Links",
+            "value": "0"
+          },
+          {
+            "label": "1 Link",
+            "value": "1"
+          },
+          {
+            "label": "2 Links",
+            "value": "2"
+          },
+          {
+            "label": "3 Links",
+            "value": "3"
+          },
+          {
+            "label": "4 Links",
+            "value": "4",
+            "selectedValue": true
+          },
+          {
+            "label": "5 Links",
+            "value": "5"
+          },
+          {
+            "label": "6 Links",
+            "value": "6"
+          },
+          {
+            "label": "7 Links",
+            "value": "7"
+          },
+          {
+            "label": "8 Links",
+            "value": "8"
+          },
+          {
+            "label": "9 Links",
+            "value": "9"
+          },
+          {
+            "label": "10 Links",
+            "value": "10"
+          },
+          {
+            "label": "11 Links",
+            "value": "11"
+          },
+          {
+            "label": "12 Links",
+            "value": "12"
+          }
+        ]
+      },
+      {
+        "name": "linkAlignment",
+        "label": "Link Alignment",
+        "type": "select",
+        "options": [
+          {
+            "label": "Distributed",
+            "value": ""
+          },
+          {
+            "label": "Trailing Edge",
+            "value": "topnav-trailing"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "name": "divisionName",
+        "label": "Division Name",
+        "type": "select",
+        "options": [
+          {
+            "label": "Yes",
+            "value": "true"
+          },
+          {
+            "label": "No",
+            "value": "false"
+          }
+        ]
+      },
+      {
+        "name": "search",
+        "label": "Search",
+        "type": "select",
+        "options": [
+          {
+            "label": "With Flyout",
+            "value": "flyout"
+          },
+          {
+            "label": "Without Flyout",
+            "value": "no-flyout"
+          },
+          {
+            "label": "No",
+            "value": "false"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "name": "scrim",
+        "label": "Scrim",
+        "type": "select",
+        "options": [
+          {
+            "label": "Yes",
+            "value": "topnav-scrim"
+          },
+          {
+            "label": "No",
+            "value": "",
+            "selectedValue": true
+          }
+        ]
+      },
+      {
+        "name": "scrimBlur",
+        "label": " Scrim Blur",
+        "type": "select",
+        "options": [
+          {
+            "label": "Yes",
+            "value": ""
+          },
+          {
+            "label": "No",
+            "value": "topnav-scrim-noblur"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "name": "subMenus",
+        "label": "Sub Menus",
+        "type": "select",
+        "options": [
+          {
+            "label": "Yes",
+            "value": "subMenusEnabled"
+          },
+          {
+            "label": "No",
+            "value": "subMenusDisabled",
+            "selectedValue": true
+          }
+        ]
+      },
+      {
+        "name": "curtainBlur",
+        "label": "Sub Menu Curtain Blur",
+        "type": "select",
+        "options": [
+          {
+            "label": "Yes",
+            "value": ""
+          },
+          {
+            "label": "No",
+            "value": "topnav-curtain-noblur"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "name": "subMenuColumns",
+        "label": "Sub Menu Columns",
+        "type": "select",
+        "options": [
+          {
+            "label": "1 Elevated; 3 Base",
+            "value": "elevated-base-3"
+          },
+          {
+            "label": "1 Elevated; 2 Base",
+            "value": "elevated-base-2"
+          },
+          {
+            "label": "1 Elevated; 1 Base",
+            "value": "elevated-base-1"
+          },
+          {
+            "label": "4 Base",
+            "value": "base"
+          }
+        ]
+      },
+      {
+        "name": "subMenuContent",
+        "label": "Sub Menu Content",
+        "type": "select",
+        "options": [
+          {
+            "label": "Long Content",
+            "value": "long"
+          },
+          {
+            "label": "Short Content",
+            "value": "short"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "name": "theme",
+        "label": "Theme",
+        "type": "select",
+        "options": [
+          {
+            "label": "Inherit",
+            "value": ""
+          },
+          {
+            "label": "Light",
+            "value": "topnav-light"
+          },
+          {
+            "label": "Dark",
+            "value": "topnav-dark"
+          }
+        ]
+      }
+    ]
+  ]
+}]
